@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Serveur RP immersif Voxtek – BoucleRP par la HMC Community">
+  <meta name="keywords" content="VRChat RP, BoucleRP, Voxtek, Roleplay, Serveur RP">
+
+  <title>HMC | Accueil</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="Image/logo-bouclerp.webp">
+
+  <!-- Preview Page -->
+  <meta property="og:title" content="HMC Community – Voxtek">
+  <meta property="og:description" content="Serveur RP immersif soutenu par la H.M.C Community">
+  <meta property="og:image" content="https://kiro701.github.io/BoucleRP/Image/preview.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kiro701.github.io/BoucleRP/">
+
+  <style>
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    /* HERO */
+    .hero h2 {
+      font-size: 2.6rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .hero-actions {
+      margin-top: 30px;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 26px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      background: #2e17ff;
+      color: #fff;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border: 2px solid #2e17ff;
+      color: #2e17ff;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      background: #2810fd;
+    }
+
+    /* SECTIONS */
+    section {
+      margin-top: 40px;
+    }
+
+    section h3 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    /* NEWS */
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .news-card {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 14px;
+      padding: 25px;
+      text-align: left;
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .news-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 40px rgba(255, 59, 59, 0.15);
+    }
+
+    .news-card span {
+      color: #2e17ff;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .news-card h4 {
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+
+    .news-card p {
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+
+    /* VALEURS */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+    }
+
+    .feature {
+      padding: 20px;
+    }
+
+    .feature h4 {
+      color: #2e17ff;
+      margin-bottom: 10px;
+    }
+
+    /* ===== HERO BANNIÈRE FULL WIDTH ===== */
+    .hero-banner {
+      position: relative;
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      height: 380px;
+      overflow: hidden;
+      margin-top: 00px;
+    }
+
+    .hero-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* overlay texte sur l'image */
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+      background: linear-gradient(
+        to bottom,
+        rgba(10,10,30,0.2) 0%,
+        rgba(10,10,25,0.7) 60%,
+        #050507 100%
+      );
+    }
+
+    .hero-overlay h2 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      color: #fff;
+      text-shadow: 0 0 20px rgba(100,120,255,0.9);
+      margin: 0 0 15px 0;
+    }
+
+    .hero-overlay p {
+      font-size: 1.05rem;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .hero-overlay .hero-actions {
+      margin-top: 25px;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    /* ===== MINI GALERIE INDEX ===== */
+    .home-gallery {
+      margin-top: 80px;
+      text-align: center;
+    }
+
+    .home-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-top: 30px;
+    }
+
+    .home-gallery-card {
+      position: relative; /* AJOUT */
+      background: rgba(15, 18, 30, 0.9);
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border-soft);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+
+    .home-gallery-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 18px var(--primary-glow);
+    }
+
+    /* 🔥 LA PARTIE CLÉ */
+    .home-gallery-card img {
+      width: 100%;
+      height: 120px;        /* taille fixe */
+      object-fit: cover;   /* crop propre */
+      display: block;
+    }
+
+    .home-gallery-more {
+      display: inline-block;
+      margin-top: 25px;
+      color: var(--primary-light);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .home-gallery-more:hover {
+      text-decoration: underline;
+    }
+    .home-gallery-author {
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .home-gallery-card:hover .home-gallery-author {
+      opacity: 1;
+    }
+
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .home-gallery-card img {
+        height: 100px;
+      }
+    }
+
+
+  </style>
+</head>
+
+<body>
+<!-- Header -->
+<div id="header"></div>
+
+<!-- HERO BANNIÈRE -->
+<section class="hero-banner">
+  <img src="Image/BoucleRP.png" alt="Bannière Voxtek">
+
+  <div class="hero-overlay">
+    <h2 data-i18n="home_hero_title">Bienvenue sur la HMC Community</h2>
+    <p data-i18n="home_hero_desc">
+      Plongez dans l’univers <strong>Voxtek</strong>, un serveur RP immersif où chaque décision compte.
+    </p>
+    <div class="hero-actions">
+      <a data-i18n="home_btn_join" href="rejoindre.html" class="btn">Rejoindre le serveur</a>
+      <a data-i18n="home_btn_lore" href="lore.html" class="btn secondary">Découvrir le lore</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- POPUP SOUTIEN -->
+ <!--
+<div id="support-popup" class="support-popup"> 
+  <div class="support-box">
+    <h2>💜 Soutenir le projet</h2>
+    <p>
+      BoucleRP est un projet communautaire ambitieux.
+      Si tu apprécies le travail réalisé et veux aider le projet à évoluer,
+      tu peux nous soutenir 💫
+    </p>
+
+    <div class="support-actions">
+      <a href="https://www.patreon.com/TON_PSEUDO" target="_blank" class="btn">
+        Soutenir sur Patreon
+      </a>
+      
+      /*<a href="soutenir.html" class="btn">Page de soutien</a>*/
+    </div>
+
+    <button class="support-close">Fermer</button>
+  </div>
+</div>
+-->
+<script>
+const popup = document.getElementById("support-popup");
+const closeBtn = document.querySelector(".support-close");
+
+if (popup && closeBtn) {
+
+  if (localStorage.getItem("supportPopupClosed")) {
+    popup.style.display = "none";
+  }
+
+  closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
+    localStorage.setItem("supportPopupClosed", "true");
+  });
+
+}
+</script>
+
+
+
+
+<main>
+
+  <!-- HERO (facultatif si tu veux répéter texte) -->
+  <!-- <section class="hero">
+    ...
+  </section> -->
+
+  <!-- NEWS -->
+  <section>
+    <h3 data-i18n="home_news_title">🔥 Dernières grosses news</h3>
+
+    <div class="news-grid">
+      <div class="news-card">
+        <span data-i18n="home_news_update">Mise à jour</span>
+        <h4 data-i18n="home_news_patch_title">Ajout d'une page Patch Notes</h4>
+        <p data-i18n="home_news_patch_desc">
+          Ajout d'une page dédiée aux notes de mises à jour du site et du serveur.
+        </p>
+        <a data-i18n="home_see_patch" href="patchnotes.html" class="home-gallery-more">
+          Voir les patchnotes →
+        </a>
+      </div>
+      <div class="news-card">
+        <span data-i18n="home_annonce_major">ANNONCE MAJEURE</span>
+        <h4 data-i18n="home_annonce_major_title">Ouverture officielle de la Bêta du site BoucleRP</h4>
+        <p data-i18n="home_annonce_major_desc">
+          Ouverture officielle de la version Bêta du boucleRP au grand public.
+        </p>
+      </div>
+      <div class="news-card">
+        <span>Test</span>
+        <h4>Test annonce NEW</h4>
+        <p>
+          Le système de news est en développement et n'est pas finalisé.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- POURQUOI NOUS -->
+  <section>
+    <h3 data-i18n="home_why_title">Pourquoi rejoindre Voxtek ?</h3>
+
+    <div class="features">
+      <div class="feature">
+        <h4 data-i18n="home_feat_rp">🎭 RP immersif</h4>
+        <p data-i18n="home_feat_rp_desc">Un univers cohérent, vivant et évolutif basé sur vos actions.</p>
+      </div>
+
+      <div class="feature">
+        <h4 data-i18n="home_feat_com">👥 Communauté active</h4>
+        <p data-i18n="home_feat_com_desc">Une communauté soudée, encadrée par la HMC.</p>
+      </div>
+
+      <div class="feature">
+        <h4 data-i18n="home_feat_lore">📜 Lore profond</h4>
+        <p data-i18n="home_feat_lore_desc">Des familles, des intrigues, des choix lourds de conséquences.</p>
+      </div>
+
+      <div class="feature">
+        <h4 data-i18n="home_serious_project_title">⚙️ Projet sérieux</h4>
+        <p data-i18n="home_serious_project_desc">Un serveur suivi, mis à jour et pensé sur le long terme.</p>
+      </div>
+    </div>
+  </section>
+  <!-- GALLERY -->
+  <section class="home-gallery">
+  <h3 data-i18n="home_gallery_title">📸 Aperçu de la galerie</h3>
+
+  <div class="home-gallery-grid">
+    <!-- Images injectées en JS -->
+  </div>
+
+  <a data-i18n="home_gallery_more" href="galerie.html" class="home-gallery-more">
+    Voir toute la galerie →
+  </a>
+</section>
+
+
+
+</main>
+<!-- Footer -->
+<div id="footer"></div>
+<!-- JS for Header/Footer-->
+<script src="js/layout.js"></script>
+<!-- JS for Gallery Preview -->
+<script src="data/gallery-data.js"></script>
+<script>
+const homeGrid = document.querySelector(".home-gallery-grid");
+
+if (typeof galleryData !== "undefined") {
+  galleryData.slice(0, 6).forEach(item => {
+
+    const card = document.createElement("div");
+    card.className = "home-gallery-card";
+
+    card.innerHTML = `
+      <img src="${item.image}" alt="${item.title}">
+      <div class="home-gallery-author">
+        📷 ${item.author || "Inconnu"}
+      </div>
+    `;
+
+    homeGrid.appendChild(card);
+  });
+}
+</script>
+
+<!-- Traduction -->
+<script src="data/translations.js"></script>
+<script src="js/main-i18n.js"></script>
+
+
+
+
+</body>
+</html>

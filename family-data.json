@@ -1,0 +1,302 @@
+{
+  "people":[{
+      "id":"p2",
+      "name":"Kokoro Hamilton",
+      "gender":"homme",
+      "img": "https://files.catbox.moe/lknzjp.png",
+      "dates":"",
+      "role":"Co-fondateur",
+      "bio":"Le mari du grand Geno Hamilton, l'un des co-fonda les plus présent à ce jour ! ",
+      "socials":
+      {
+        "Tiktok": "https://www.tiktok.com/@yanderekokoro666?_r=1&_t=ZN-96WqfG8sncE",
+        "Discord": "https://discord.com/users/699723182793424927",
+        "Toyhouse" : "https://toyhou.se/yanderekokoro666"
+      }
+    },
+    {
+      "id":"p1",
+      "name":"Mr Vox Hamilton",
+      "gender":"homme",
+      "discordId":"599130976806764545",
+      "dates":"",
+      "role":"Fondateur",
+      "bio":"Membre fondateur de la famille de cœur.",
+      "socials":{
+        "Tiktok":"https://www.tiktok.com/@vaasbey",
+        "Discord": "https://discord.com/users/599130976806764545"
+      }
+    },
+    
+    {
+      "id":"p3",
+      "name":"Yuna Hamilton",
+      "gender":"femme",
+      "discordId":"902870493550485504",
+      "dates":"",
+      "role":"Enfant royale • deuxième successeur",
+      "bio":"Bonjour, je suis Kiro Hamilton.",
+      "socials":
+      {
+        "Discord":"https://discord.com/users/902870493550485504"
+      }
+    },
+    {
+      "id":"p4",
+      "name":"MimiBi Hamilton",
+      "gender":"femme",
+      "discordId":"873570789675397120",
+      "dates":"",
+      "role":"",
+      "bio":"sociable et aime boire, lot de personnalité et caractères assez larges, s'adapte relativement bien, préfère les endroit calme en petit comité",
+      "socials":
+      {
+      }
+    },
+    {
+      "id":"p5",
+      "name":"Powder Hamilton",
+      "gender":"femme",
+      "dates":"",
+      "img": "https://kiro701.github.io/BoucleRP/Image/PP/Powder.jpg",
+      "role":"Co-fondatrice • enfant royale • successeur",
+      "bio": "",
+      "socials":
+      {
+        "Twitch" : "https://www.twitch.tv/sys_powdy",
+        "YouTube" : "https://www.youtube.com/channel/UCYchaZfFc-lt0aJnhQ7_cZg",
+        "Tiktok" : "https://www.tiktok.com/@sys_powder"
+      }
+    },
+    {
+      "id":"p6",
+      "name":"Joseph Wilford",
+      "gender":"homme",
+      "dates":"",
+      "discordId": "1124522983294238821",
+      "role":"",
+      "bio": "",
+      "socials":
+      {
+      }
+    },
+    {
+      "id":"p8",
+      "name":"Aria Kamuri",
+      "gender":"femme",
+      "dates":"",
+      "discordId": "1093534349896462476",
+      "role":"Sœur de cœur de Vaasbey • Membre de la dynastie Royale",
+      "bio": "Je suis quelqu'un de gentille, drôle et expressif. Je suis très sensible émotionnellement et j'ai une fragilité avec le bruit. Mais sinon j'adore jouer ou être chill",
+      "socials":
+      {
+        "Discord": "https://discord.com/users/1093534349896462476",
+        "Instagram": "https://www.instagram.com/aria_kamuri/",
+        "Tiktok 1": "https://www.tiktok.com/@aria.kamuri",
+        "Tiktok 2": "https://www.tiktok.com/@just._me562",
+        "YouTube": "https://www.youtube.com/@Aria_Kamuri4",
+        "Playstation": "https://psnprofiles.com/Agent_Nesquiik"
+      }
+    },
+    {
+      "id":"p9",
+      "name":"Aka Hamilton",
+      "gender":"femme",
+      "dates":"",
+      "discordId": "719519699716538389",
+      "role":"",
+      "bio": "",
+      "socials":
+      {
+      }
+    },
+    {
+      "id":"p10",
+      "name":"Chaos Hamilton",
+      "gender":"homme",
+      "img": "https://kiro701.github.io/BoucleRP/Image/PP/Chaos.jpg",
+      "discordId": "1200313720195264613",
+      "dates":"",
+      "role":"",
+      "bio": "fils aîné de Geno ayant participé à la construction de BoucleRP",
+      "socials":
+      {
+        "Discord": "https://discord.com/users/1200313720195264613",
+        "Tiktok": "https://www.tiktok.com/@agent_nesquik",
+        "Twitch": "https://www.twitch.tv/agent_nesquik",
+        "X": "https://x.com/Agent_Nesquik_"
+      }
+    },
+    {
+      "id":"p11",
+      "name":"Velvette Hamilton",
+      "gender":"femme",
+      "discordId": "1254016482409582602",
+      "dates":"",
+      "role":"",
+      "bio": "",
+      "socials":
+      {
+      }
+    },
+    {
+      "id":"p12",
+      "name":"Gaya Hamilton",
+      "gender":"femme",
+      "discordId": "1471476067456782356",
+      "dates":"",
+      "role":"",
+      "bio": "",
+      "socials":
+      {
+      }
+    },
+    {
+      "id":"p15",
+      "name":"Zestial Hamilton",
+      "gender":"homme",
+      "discordId": "135511703990304768",
+      "dates":"",
+      "role":"Grand père de la famille Hamilton",
+      "bio": "Overlord de la peur et de la phobie,  possédant le pouvoir de conjuration. ",
+      "socials":
+      {
+        "Tiktok": "https://www.tiktok.com/@thespikeers?lang=en",
+        "Discord": "https://discord.com/users/135511703990304768"
+      }
+    },
+    {
+      "id":"p16",
+      "name":"Awwax Hamilton",
+      "gender":"homme",
+      "discordId": "1248946274259042345",
+      "dates":"",
+      "role":"",
+      "bio": "",
+      "socials":
+      {
+      }
+    },
+    {
+      "id":"p17",
+      "name":"Kaz Hamilton",
+      "gender":"homme",
+      "discordId": "946068504023556186",
+      "dates":"",
+      "role":"⚜️ Premier Ministre de la HMC ⚜️",
+      "bio": "Âme en or, énergie infinie et humour incontrôlable. Kaz est le cœur battant de la HMC : un leader accueillant, drôle et toujours prêt à embarquer son équipe dans les aventures les plus folles. \n Pas toujours le plus mature… mais toujours le premier à motiver les autres, créer des souvenirs et transformer le chaos en légende. Entre ambition, bonne humeur et esprit d’équipe, il avance avec une seule mission : faire vibrer la HMC et ceux qui l’entourent. 🚀",
+      "socials":
+      {
+        "Tiktok": "https://www.tiktok.com/@baji_studio"
+      }
+    },
+    {
+      "id":"p18",
+      "name":"Léa Hamilton",
+      "gender":"femme",
+      "discordId": "1471888307846906010",
+      "dates":"",
+      "role":"",
+      "bio": "",
+      "socials":
+      {
+      }
+    },
+    {
+      "id":"p19",
+      "name":"NVIDI Hamilton",
+      "gender":"homme",
+      "discordId": "1251863283074334760",
+      "dates":"",
+      "role":"",
+      "bio": "",
+      "socials":
+      {
+      }
+    },
+    {
+      "id":"p20",
+      "name":"Valentino Hamilton",
+      "gender":"homme",
+      "discordId": "851018271301304330",
+      "dates":"",
+      "role":"",
+      "bio": " j'aime mes freres et soeurs et j'aime ma famille",
+      "socials":
+      {
+        "Twitch": "https://www.twitch.tv/morguigy"
+      }
+    },
+    {
+      "id":"p21",
+      "name":"Dimitri Hamilton",
+      "gender":"homme",
+      "discordId": "560935951803875368",
+      "dates":"",
+      "role":"",
+      "bio": "Hello ! Moi c'est Dimitri 21 ans, je suis du signe astrologique lion, donc attention je peut mordre ! 👀 Nooon, plus sérieusement, je suis originaire du sud ouest au alentour de bordeaux et actuellement domicilié dans le secteur de Poitiers !  Je suis actuellement en reconversion vers une formation en BTS SIO en informatique ! Mais sinon en emploi stable depuis 2 bonne années ! Sinon voili voilou, je suis doté d'un caractère gentil et adorable, avec une patience accrue ! Mais dote d'un défauts assez majeur, c'est que je m'inquiète facilement et rapidement pour les gens et que je suis doté d'une empathie énorme !",
+      "socials":
+      {
+        "Tiktok" : "https://www.tiktok.com/@spaghettzz",
+        "Instagram" : "https://www.instagram.com/spaghettzzz"
+      }
+    },
+    {
+      "id":"p22",
+      "name":"Ethy Ashes",
+      "gender":"homme",
+      "discordId": "1525466858319384687",
+      "dates":"",
+      "role":"Marie de Yuna Hamilton",
+      "bio": "Ethyloteste ou le seigneur des cendres est un seigneur démon venant des contrée lointaine de l’anneau de la Colère, sont comportements et digne de sa terrible réputation, froid, calculateur et calme il sait se montrer d’une immense gentillesse et générosité envers c’est proche les plus fidèle, amoureux des sucreries et grands lecteurs, le seigneur des cendres porte un grand intérêt au apprentissage à c’est heures perdues",
+      "socials":
+      []
+    }
+   ],
+   "families":
+   [
+    {
+      "parents":["p6", "p9"],
+      "children":["p1", "p8"]
+    },
+    {
+      "parents":["p1","p2"],
+      "children":["p3", "p11", "p12", "p18", "p19", "p4"]
+    },
+    {
+      "parents":["p1"],
+      "children":["p5","p10"]
+    },
+    {
+      "parents":["p15"],
+      "children":["p9", "p16", "p17", "p20"]
+    },
+    {
+      "parents": ["p21"],
+      "children": ["p2"]
+    }
+
+
+  ],
+  "relations":
+  [
+    {
+      "type":"love",
+      "a":"p1",
+      "b":"p2",
+      "label":"Relation amoureuse"
+    },
+    {
+      "type": "love",
+      "a": "p3",
+      "b": "p22",
+      "label": "Relation amoureuse"
+    },
+    {
+      "type": "love",
+      "a": "p6",
+      "b": "p9",
+      "label": "Relation amoureuse arangée"
+    }
+  ]
+}
